@@ -17,7 +17,7 @@ header {
 }
 
 h1 {
-  font-weight: 800;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.5;
   color: brown;
@@ -28,14 +28,24 @@ form {
   border-radius: 16px;
   background: beige;
   display: flex;
+  border-color: darksalmon;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
+}
+::placeholder {
+  color: burlywood;
+}
+
+::placeholder.clicked {
+  color: brown;
 }
 
 .instruction {
   padding: 11px;
   border: 1px solid bisque;
   width: 80%;
+  color: brown;
+  font-weight: lighter;
   font-family: cursive;
   font-size: 16px;
   border-radius: 20px;
@@ -58,10 +68,10 @@ form {
   line-height: 1.5;
   padding: 20px;
   font-weight: 600;
-  color: brown;
+  color: darkred;
   background: beige;
   font-family: Cochin;
-  border-left: 3px solid beige;
+  border-left: 3px solid darksalmon;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
