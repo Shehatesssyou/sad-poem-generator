@@ -7,35 +7,38 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <header>
-      <h1>SAD POEM GENERATOR</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a sad topic..."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" value="Generate Poem" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        another line
-        <br />
-      </div>
-    </main>
+    <div class="container">
+      <header>
+        <h1>SAD POEM GENERATOR</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a sad topic..."
+            autofocus
+            required
+            autocomplete="off"
+            class="instruction"
+          />
+          <input type="submit" class="submit-button" value="Generate Poem" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          another line
+          <br />
+        </div>
+      </main>
 
-    <footer>
-      This beautiful sad poem generator was coded by
-      <a href="https://github.com/Shehatesssyou/">Bee</a>
-      and is hosted on
-      <a href="https://github.com/Shehatesssyou/sad-poem-generator">Github</a>
-      <a href="https://sadpoemgenerator.netlify.app/">and Netlify</a>."
-    </footer>
+      <footer>
+        This sad poem generator was coded by
+        <a href="https://github.com/Shehatesssyou/">Bee 🤎</a>
+        and is hosted on
+        <a href="https://github.com/Shehatesssyou/sad-poem-generator">Github</a>
+        and <a href="https://sadpoemgenerator.netlify.app/"> Netlify</a>."
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
