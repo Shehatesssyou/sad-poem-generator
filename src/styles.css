@@ -18,7 +18,7 @@ header {
 
 h1 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 1.5;
   color: brown;
 }
@@ -34,10 +34,6 @@ form {
 }
 ::placeholder {
   color: burlywood;
-}
-
-::placeholder.clicked {
-  color: brown;
 }
 
 .instruction {
@@ -65,7 +61,7 @@ form {
 
 .poem {
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.2;
   padding: 20px;
   font-weight: 600;
   color: darkred;
