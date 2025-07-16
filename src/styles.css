@@ -18,22 +18,38 @@ header {
 
 h1 {
   font-weight: 700;
+  text-align: center;
   font-size: 30px;
   line-height: 1.5;
   color: brown;
 }
 
-form {
+.form-container {
   padding: 20px;
   border-radius: 16px;
   background: beige;
-  display: flex;
   border-color: darksalmon;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
 }
+
+form {
+  display: flex;
+}
+
 ::placeholder {
   color: burlywood;
+}
+
+.hint {
+  color: darksalmon;
+  font-family: monospace;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.hidden {
+  display: none;
 }
 
 .instruction {
@@ -77,4 +93,19 @@ footer {
   margin-top: 30px;
   font-size: 12px;
   color: brown;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
