@@ -33,6 +33,10 @@ h1 {
   margin-bottom: 30px;
 }
 
+.form-container:focus {
+  border-color: darkred;
+}
+
 form {
   display: flex;
 }
@@ -56,8 +60,7 @@ form {
   padding: 11px;
   border: 1px solid bisque;
   width: 80%;
-  color: brown;
-  font-weight: lighter;
+  color: burlywood;
   font-family: cursive;
   font-size: 16px;
   border-radius: 20px;
